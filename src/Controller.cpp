@@ -9,7 +9,15 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
-	return 0;
+#include "Controller.hpp"
+
+Controller :: Controller()
+{
+
 }
+
+void Controller :: start()
+{
+
+}
+
