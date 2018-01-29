@@ -29,10 +29,9 @@ void Controller :: start()
 		cout << "Element pushed: " << loop1[i] << endl;
 	}
 
-	for (int i = 0; i<16; i++)
+	for (int i = 0; i<=5; i++)
 	{
-		loop2.push_back("Cats");
-
+		loop2.push_back("Birds");
 		cout << "There are " << loop2[i] << "." << endl;
 	}
 }
